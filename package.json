@@ -1,0 +1,36 @@
+{
+  "name": "sanity-context-chatbot",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Minimal Next.js chatbot wired to a Sanity Context MCP endpoint. Bring your own Anthropic or OpenAI key.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "check:mcp": "node scripts/check-mcp.mjs"
+  },
+  "dependencies": {
+    "@ai-sdk/anthropic": "^4.0.87",
+    "@ai-sdk/mcp": "^2.0.83",
+    "@ai-sdk/openai": "^4.0.101",
+    "@ai-sdk/react": "^4.0.154",
+    "ai": "^7.0.150",
+    "next": "^16.4.3",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "react-markdown": "^10.1.0",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/node": "^24.19.2",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

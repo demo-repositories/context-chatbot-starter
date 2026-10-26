@@ -1,0 +1,9 @@
+node_modules
+.next
+out
+# Do not commit env files. Commit only the example file.
+.env*
+!.env.example
+*.tsbuildinfo
+next-env.d.ts
+.DS_Store
