@@ -108,6 +108,20 @@ while testing.
 - **Model errors** usually mean the key does not match `AI_PROVIDER`, or `AI_MODEL` names a
   model that provider does not offer.
 
+## NAVEX Demo
+
+A customer demo page at `/navex` showcases the chatbot in action with NAVEX's regional whistleblowing statistics. The page features:
+
+- Full-bleed iframe of NAVEX's regional data report
+- In-page chat card (not a popup bubble) that slides in after 2 seconds
+- NAVEX-branded styling with navy blue (#003057) color scheme
+- Three suggested prompts to get started
+- NAVEX-specific system prompt optimized for their use case
+- "Request a Demo" CTA after meaningful interactions
+- Separate API route at `/api/chat/navex` with domain-specific instructions
+
+The NAVEX demo uses the same Sanity Context MCP connection as the main chatbot, but with a specialized system prompt focused on NAVEX's whistleblowing data, case studies, and compliance services.
+
 ## Versions
 
 | Package                        | Version used | Note                                              |
