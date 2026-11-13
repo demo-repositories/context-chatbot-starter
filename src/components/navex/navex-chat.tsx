@@ -6,7 +6,7 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import { Message } from '@/components/chat/message';
 import { ChatInput } from '@/components/chat/chat-input';
 
-const DEMO_REQUEST_URL = 'https://www.navex.com/en-gb/request-a-demo/';
+const DEMO_REQUEST_URL = 'https://www.navex.com/en-gb/request-demo/';
 
 const SUGGESTED_PROMPTS = [
   'Give me a TLDR',
